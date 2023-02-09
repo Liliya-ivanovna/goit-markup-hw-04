@@ -153,7 +153,7 @@ color: var(--slate-color);
     gap: 24px ;
 }
 .features-link{
-    background: var(--cloud-color);
+    background:#F4F4FD;;
     width: 264px;
 height: 112px;
 border-radius: 4px;
@@ -162,6 +162,8 @@ margin-bottom: 8px;
 }
 .features-icon{
     display: flex;
+    justify-content: center;
+    align-items: center;
     
    
 }
