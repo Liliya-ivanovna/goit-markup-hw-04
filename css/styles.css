@@ -154,7 +154,7 @@ color: var(--slate-color);
     gap: 24px ;
 }
 .features-link{
-    background:#F4F4FD;;
+    background: var(--cloud-color);
     width: 264px;
 height: 112px;
 border-radius: 4px;
@@ -163,15 +163,12 @@ margin-bottom: 8px;
 }
 .features-icon{
     display: flex;
-    justify-content: center;
+    justify-content:center;
     align-items: center;
-    
-   
 }
 .icon-list{
     display: flex;
     gap: 24px ;
-    
 }
 
 .our-work{
@@ -254,6 +251,16 @@ letter-spacing: 0.02em;
 color: var(--slate-color);
 margin-top: 8px;
 
+}
+.customers-header{
+    font-family: 'Roboto',sans-serif;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--navy-blue-color);
 }
 
 .body{
