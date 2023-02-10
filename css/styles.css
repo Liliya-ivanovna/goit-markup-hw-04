@@ -163,7 +163,7 @@ margin-bottom: 8px;
 }
 .features-icon{
     display: flex;
-    justify-content:center;
+    justify-content:space-between;
     align-items: center;
 }
 .icon-list{
@@ -221,6 +221,9 @@ margin-bottom: 72px;
     color: inherit;
     text-align: center;    
 }
+.card-link:is(:hover,:focus){
+    background:var(--ocean-color);
+}
 .card-link{
     display: flex;
     justify-content: center;
@@ -269,6 +272,13 @@ left: 156px;
 padding-top: 130px;
 padding-bottom: 120px;
 
+}
+.customers-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 168px;
+    height: 88px;
 }
 .body{
 font-family: 'Roboto', sans-serif;
