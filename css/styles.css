@@ -170,7 +170,6 @@ margin-bottom: 8px;
     display: flex;
     gap: 24px ;
 }
-
 .our-work{
     padding-bottom: 120px;
     text-align: center;
@@ -262,7 +261,15 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--navy-blue-color);
 }
+.customers{
+position: absolute;
+width: 1128px;
+height: 200px;
+left: 156px;
+padding-top: 130px;
+padding-bottom: 120px;
 
+}
 .body{
 font-family: 'Roboto', sans-serif;
 font-weight: 500;
