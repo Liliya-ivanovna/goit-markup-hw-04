@@ -265,20 +265,17 @@ text-transform: capitalize;
 color: var(--navy-blue-color);
 }
 .customers{
-position: absolute;
-width: 1128px;
-height: 200px;
-left: 156px;
 padding-top: 130px;
 padding-bottom: 120px;
 
 }
 .customers-link{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 168px;
+width: 168px;
     height: 88px;
+gap: 24px;
+background:var(--body-background-color);
+
 }
 .body{
 font-family: 'Roboto', sans-serif;
