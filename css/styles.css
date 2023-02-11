@@ -272,14 +272,16 @@ padding-bottom: 120px;
 .customers-list{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
+    margin-top: 72px;
 }
 .customers-link{
     display: flex;
 width: 168px;
     height: 88px;
-
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
 background:var(--body-background-color);
 
 }
