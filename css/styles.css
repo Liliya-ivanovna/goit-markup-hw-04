@@ -168,6 +168,8 @@ margin-bottom: 8px;
 }
 .icon-list{
     display: flex;
+    align-items: center;
+    justify-content: center;
     gap: 24px ;
 }
 .our-work{
