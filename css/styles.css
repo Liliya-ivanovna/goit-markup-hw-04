@@ -280,12 +280,10 @@ border: 1px solid #8E8F99;
 }
 .customers-link:is(:hover,:focus){
     border: 1px solid var(--ocean-color);
+    color: var(--ocean-color);
 }
 .svg{
-    fill: #8E8F99;
-}
-.svg:is(:hover,:focus){
-    color: var(--ocean-color);
+    fill: #8E8F99; 
 }
 .body{
 font-family: 'Roboto', sans-serif;
