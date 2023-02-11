@@ -163,10 +163,6 @@ margin-bottom: 8px;
     justify-content:center;
     align-items: center;
 }
-.icon-list{
-    display: flex;
-    gap: 24px ;
-}
 .our-work{
     padding-bottom: 120px;
     text-align: center;
@@ -283,7 +279,6 @@ border: 1px solid #8E8F99;
     background:var(--body-background-color);
     width: 168px;
     height: 88px;
-    padding-left: 156px;
     
 }
 .customers-link:is(:hover,:focus){
