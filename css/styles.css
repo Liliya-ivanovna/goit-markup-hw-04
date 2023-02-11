@@ -273,6 +273,7 @@ padding-bottom: 120px;
     align-items: center;
     justify-content: center;
 border: 1px solid #8E8F99;
+color: #8E8F99;
     border-radius: 4px;
     background:var(--body-background-color);
     width: 168px;
@@ -283,7 +284,7 @@ border: 1px solid #8E8F99;
     color: var(--ocean-color);
 }
 .svg{
-    fill: #8E8F99; 
+    fill: currentColor;
 }
 .body{
 font-family: 'Roboto', sans-serif;
