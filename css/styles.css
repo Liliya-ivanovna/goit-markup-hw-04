@@ -168,8 +168,6 @@ margin-bottom: 8px;
 }
 .icon-list{
     display: flex;
-    align-items: center;
-    justify-content: center;
     gap: 24px ;
 }
 .our-work{
@@ -275,8 +273,6 @@ padding-bottom: 120px;
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 168px;
-    height: 88px;
     gap: 24px;
     margin-top: 72px;
     background:var(--body-background-color);
