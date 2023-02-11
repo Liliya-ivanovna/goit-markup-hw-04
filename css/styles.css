@@ -269,11 +269,17 @@ padding-top: 130px;
 padding-bottom: 120px;
 
 }
+.customers-list{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
 .customers-link{
     display: flex;
 width: 168px;
     height: 88px;
-gap: 24px;
+
 background:var(--body-background-color);
 
 }
