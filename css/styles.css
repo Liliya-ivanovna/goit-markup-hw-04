@@ -367,7 +367,8 @@ width: calc(((100% - 48px)) / 3);
 margin-right: 24px;
 }
 .service{
-    text-decoration: none;
+    background: var(--body-background-color);
+    border: 1px solid var(--cornflower-color);
 }
 
  .accent2{
