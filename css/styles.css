@@ -330,15 +330,14 @@ border-radius: 4px;
         justify-content: center;
         gap: 24px;
 }
-.borders-card{
+ .borders-card{ 
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
     border-left: 1px solid var(--cornflower-color);
    border-right:  1px solid var(--cornflower-color);
    border-bottom:  1px solid var(--cornflower-color);
-    background: var(--body-background-color);
-    padding-top: 32px;
-padding-left: 16px;
-padding-bottom: 32px;
-}
+ }
 .image-name{
 font-weight: 500;
 font-size: 20px;
@@ -362,13 +361,13 @@ padding-top: 8px;
 .service:is(:hover,:focus){
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
+.service{
+    text-decoration: none;
+
+}
 .service-card:not(:nth-child(3n)){
 width: calc(((100% - 48px)) / 3);
 margin-right: 24px;
-}
-.service{
-    background: var(--body-background-color);
-    border: 1px solid var(--cornflower-color);
 }
 
  .accent2{
