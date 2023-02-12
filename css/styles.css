@@ -265,7 +265,7 @@ padding-bottom: 120px;
     display: flex;
     gap: 24px;
     margin-top: 72px;
-   
+  
 }
 .customers-link{
     display: flex;
@@ -275,7 +275,7 @@ border: 1px solid var(--light-slate);
 color: var(--light-slate);
     border-radius: 4px;
     background:var(--body-background-color);
-    flex-basis:  calc((100%-px)/6);
+  
 }
 .customers-link:is(:hover,:focus){
     border: 1px solid var(--ocean-color);
