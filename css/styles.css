@@ -159,12 +159,12 @@ color: var(--slate-color);
 }
 .features-icon{
     background: var(--cloud-color);
-    width: 264px;
 height: 112px;
 border-radius: 4px;
 margin-bottom: 8px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .our-work{
     padding-bottom: 120px;
