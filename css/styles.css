@@ -164,6 +164,7 @@ height: 112px;
 border-radius: 4px;
 margin-bottom: 8px;
     display: flex;
+    justify-content: center;
 }
 .our-work{
     padding-bottom: 120px;
